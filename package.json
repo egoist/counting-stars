@@ -1,6 +1,6 @@
 {
   "name": "counting-stars",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Counting stars like you are One Republic.",
   "main": "counting-stars.js",
   "scripts": {
