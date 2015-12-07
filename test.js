@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import countingStars from './src/index'
+import countingStars from './src/index';
 
 describe('main', () => {
   it('test 5 stars', done => {

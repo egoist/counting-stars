@@ -24,7 +24,7 @@ countingStars({
     '<i class="fa fa-star-o"></i>', // half star
   ],
   rating: 3.5
-})
+});
 ```
 
 ## License
