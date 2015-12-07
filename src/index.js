@@ -5,11 +5,11 @@ export default function ({
   attrs = {}
 } = {}) {
   if (Object.keys(attrs).length > 0) {
-    let attr = ''
+    let attr = '';
     for (let i in attrs) {
-      attr += ` ${i}="${attrs[i]}"`
+      attr += ` ${i}="${attrs[i]}"`;
     }
-    chars = chars.map(char => `<${tag}${attr}>${char}</${tag}>`)
+    chars = chars.map(char => `<${tag}${attr}>${char}</${tag}>`);
   }
   const positivePoints = chars[0].repeat(parseInt(rating));
   const afterDot = (rating % 1 >= 0.5) ? chars[1] : '';
