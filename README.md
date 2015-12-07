@@ -14,12 +14,11 @@ npm install counting-stars
 
 ```javascript
 // default settings
-const options = {
-  chars = ['★', '☆'],
+{ chars = ['★', '☆'],
   rating = 0,
   tag = 'span',
   attrs = {}
-};
+} = {}
 // usage
 import countingStars from 'counting-stars';
 countingStars({
