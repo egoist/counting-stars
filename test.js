@@ -20,4 +20,14 @@ describe('main', () => {
     })).to.equal('★★★');
     done();
   });
+  it('test attrs', done => {
+    expect(countingStars({
+      rating: 4,
+      tag: 'a',
+      attrs: {
+        '@click': 'handleClick'
+      }
+    })).to.equal('<a @click="handleClick">★</a>'.repeat(4));
+    done();
+  })
 });

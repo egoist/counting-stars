@@ -13,6 +13,14 @@ npm install counting-stars
 ## Example
 
 ```javascript
+// default settings
+const options = {
+  chars = ['★', '☆'],
+  rating = 0,
+  tag = 'span',
+  attrs = {}
+};
+// usage
 import countingStars from 'counting-stars';
 countingStars({
   rating: 4
@@ -23,6 +31,13 @@ countingStars({
     '<i class="fa fa-star"></i>',   // full star
     '<i class="fa fa-star-o"></i>', // half star
   ],
+  rating: 3.5
+});
+// wrap star with tag and give it attributes
+countingStars({
+  attrs: {
+    'onClick': 'handleClick'
+  },
   rating: 3.5
 });
 ```
