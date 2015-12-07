@@ -1,0 +1,30 @@
+# Counting Stars [![Build Status](https://img.shields.io/circleci/project/egoist/counting-stars/master.svg?style=flat-square)](https://circleci.com/gh/egoist/counting-stars/tree/master)
+
+Counting stars like you are One Republic.
+
+## Installation
+
+```bash
+npm install counting-stars
+```
+
+## Example
+
+```javascript
+import countingStars from 'counting-stars';
+countingStars({
+  rating: 4
+});
+// use your favorite chars
+countingStars({
+  chars: [
+    '<i class="fa fa-star"></i>',   // full star
+    '<i class="fa fa-star-o"></i>', // half star
+  ],
+  rating: 3.5
+})
+```
+
+## License
+
+MIT &copy; [EGOIST](https://github.com/egoist)
