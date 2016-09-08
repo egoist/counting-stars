@@ -4,7 +4,7 @@ Counting stars like you are One Republic.
 
 ## Installation
 
-CDN: https://npmcdn.com/counting-stars
+CDN: https://unpkg.com/counting-stars
 
 ```bash
 npm install counting-stars
